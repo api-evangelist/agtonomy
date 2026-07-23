@@ -1,8 +1,15 @@
 aid: agtonomy
 name: Agtonomy
-description: 'Agtonomy is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Agtonomy is a physical-AI and automation software company, founded in 2021 by growers
+  and technologists, that embeds machine vision, connectivity, and AI directly into agricultural and
+  off-road equipment from manufacturers such as Bobcat, Kubota, and Clemens. Its platform combines GPS
+  guidance, computer vision, and fleet intelligence so a single operator can plan, remotely monitor, and
+  review autonomous tasks like mowing, hauling, spraying, and cultivation across 10+ tractors at once. The
+  TeleFarmer product controls these field missions through an intuitive app, helping growers address labor
+  shortages and rising operational costs. Backed by investors including GV and Allison Transmission,
+  Agtonomy operates primarily across the western United States with expansion into the Southeast US and
+  Australia. This profile was surfaced as a GV portfolio company and enriched by the API Evangelist
+  pipeline; Agtonomy publishes no public developer API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/agtonomy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Frontier Tech
+- Agriculture
+- AgTech
+- Autonomy
+- Physical AI
+- Robotics
+- Automation
+image: https://stylish-triumph-0a83d9e756.media.strapiapp.com/banner_ae1e90ddeb.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://agtonomy.com
+  url: https://www.agtonomy.com
+- type: About
+  url: https://www.agtonomy.com/about
+- type: Blog
+  url: https://www.agtonomy.com/news
+- type: Support
+  url: https://www.agtonomy.com/contact-us
+- type: TermsOfService
+  url: https://www.agtonomy.com/terms
+- type: PrivacyPolicy
+  url: https://www.agtonomy.com/privacy
+- type: DomainSecurity
+  url: security/agtonomy-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
